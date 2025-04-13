@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 public class SignUpLogin {
-
+	//Webdriver
 	WebDriver driver;
 	By LinkSignUpLogin=By.xpath("//a[normalize-space(text()) = 'Signup / Login']");
 	By VerifyLabelNewUserSignUp= By.xpath("//h2[normalize-space(text())=\"New User Signup!\"]");
@@ -21,6 +21,7 @@ public class SignUpLogin {
 	By Day=By.id("days");
 	By Months=By.id("months");
 	By Years=By.id("years");
+	
 	By NewsletterCheckbox=By.id("newsletter");
 	By Option=By.id("optin");
 	By FirstName=By.id("first_name");
